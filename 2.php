@@ -13,7 +13,7 @@ return curl_exec($ch);
 curl_close($ch);
 
 }
-$us='http://live.bilibili.com/h5/ent-life?ajax=1&page='.rand(1,3);
+$us='http://live.bilibili.com/h5/all?ajax=1&page='.rand(1,100);
 $jso=curll($us);
 
 // Will dump a beauty json :3
